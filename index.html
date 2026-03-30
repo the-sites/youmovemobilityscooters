@@ -4,7 +4,7 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>YouMove Mobility Rentals | DFW Scooter & Wheelchair Rentals</title>
-  <meta name="description" content="Premium mobility scooter and wheelchair rentals delivered to you. We cater to events, resorts, amusement parks, and everyday outings across Dallas–Fort Worth. 262+ deliveries. 4.5 stars.">
+  <meta name="description" content="Premium mobility scooter and wheelchair rentals delivered to events, resorts, amusement parks, and everyday outings across Dallas–Fort Worth. 262+ deliveries. 4.5 stars.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -18,9 +18,9 @@
       --ink:      #1a1a1a;
       --ink2:     #3d3d3d;
       --muted:    #8a8a8a;
-      --teal:     #007c6e;
-      --teal-lt:  #00a991;
-      --teal-bg:  #e8f5f3;
+      --teal:     #1565C0;
+      --teal-lt:  #1976D2;
+      --teal-bg:  #DAEEF8;
       --gold:     #d4890a;
       --gold-bg:  #fdf3e3;
       --border:   #e4e0da;
@@ -89,7 +89,7 @@
       content: '';
       position: absolute; inset: 0;
       background:
-        radial-gradient(ellipse 55% 60% at 75% 45%, rgba(0,124,110,0.07) 0%, transparent 65%),
+        radial-gradient(ellipse 55% 60% at 75% 45%, rgba(21,101,192,0.07) 0%, transparent 65%),
         radial-gradient(ellipse 35% 35% at 15% 75%, rgba(212,137,10,0.06) 0%, transparent 60%);
       pointer-events: none;
     }
@@ -99,7 +99,7 @@
       top: 0; right: 0;
       width: 42%;
       height: 100%;
-      background: linear-gradient(180deg, #e8f5f3 0%, #f0faf9 100%);
+      background: linear-gradient(180deg, #DAEEF8 0%, #EEF6FC 100%);
       clip-path: polygon(18% 0%, 100% 0%, 100% 100%, 0% 100%);
       z-index: 0;
     }
@@ -144,7 +144,7 @@
       transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
       box-shadow: 0 4px 20px rgba(0,124,110,0.25);
     }
-    .btn-main:hover { background: var(--teal-lt); transform: translateY(-2px); box-shadow: 0 8px 28px rgba(0,124,110,0.3); }
+    .btn-main:hover { background: var(--teal-lt); transform: translateY(-2px); box-shadow: 0 8px 28px rgba(21,101,192,0.3); }
 
     .btn-ghost {
       display: inline-flex; align-items: center; gap: 0.5rem;
@@ -203,7 +203,7 @@
 
     .hc-img-placeholder {
       width: 100%; height: 160px;
-      background: linear-gradient(135deg, #e8f5f3 0%, #d0ede9 100%);
+      background: linear-gradient(135deg, #DAEEF8 0%, #B8DCEF 100%);
       border-radius: 12px;
       display: flex; align-items: center; justify-content: center;
       margin-bottom: 1.2rem;
@@ -312,7 +312,7 @@
     .prod-card:hover {
       transform: translateY(-6px);
       box-shadow: 0 16px 40px rgba(0,0,0,0.1);
-      border-color: rgba(0,124,110,0.3);
+      border-color: rgba(21,101,192,0.3);
     }
 
     .prod-img {
@@ -376,7 +376,7 @@
       background: #fff; border: 1px solid var(--border); border-radius: 14px;
       transition: border-color 0.3s, box-shadow 0.3s;
     }
-    .step:hover { border-color: rgba(0,124,110,0.3); box-shadow: 0 6px 24px rgba(0,0,0,0.06); }
+    .step:hover { border-color: rgba(21,101,192,0.3); box-shadow: 0 6px 24px rgba(0,0,0,0.06); }
 
     .step-n {
       font-family: 'Playfair Display', serif;
@@ -620,7 +620,7 @@
     <div class="hero-card-main">
       <div class="hc-top">
         <div class="hc-img-placeholder">
-  	<img src="youmovemobilityscooters/assets/HvyDuty.jpg" alt="Mobility Scooter" class="hc-img">
+  	<img src="assets/HvyDuty.jpg" alt="Mobility Scooter" class="hc-img">
         <div>
           <div class="hc-name">Heavy Duty Mobility Scooter</div>
           <div class="hc-meta">
@@ -631,19 +631,19 @@
       <div class="hc-img-placeholder">
         <svg class="scooter-svg-sm" viewBox="0 0 280 200" fill="none" xmlns="http://www.w3.org/2000/svg">
           <ellipse cx="140" cy="188" rx="80" ry="9" fill="rgba(0,124,110,0.1)"/>
-          <circle cx="72" cy="158" r="28" fill="#d0ede9" stroke="#007c6e" stroke-width="2.5"/>
-          <circle cx="72" cy="158" r="17" fill="#e8f5f3" stroke="rgba(0,124,110,0.3)" stroke-width="1.2"/>
-          <circle cx="72" cy="158" r="5" fill="#007c6e"/>
-          <circle cx="210" cy="163" r="24" fill="#d0ede9" stroke="#007c6e" stroke-width="2.5"/>
-          <circle cx="210" cy="163" r="14" fill="#e8f5f3" stroke="rgba(0,124,110,0.3)" stroke-width="1.2"/>
-          <circle cx="210" cy="163" r="4" fill="#007c6e"/>
-          <path d="M 68 140 L 100 126 L 206 126 L 224 148 L 216 161 L 68 159 Z" fill="#b8ddd9" stroke="#007c6e" stroke-width="1.2"/>
-          <rect x="88" y="88" width="10" height="40" rx="3" fill="#9cc9c4" stroke="#007c6e" stroke-width="1"/>
-          <rect x="68" y="78" width="54" height="16" rx="6" fill="#007c6e"/>
-          <rect x="72" y="81" width="46" height="7" rx="3" fill="#00a991" opacity="0.6"/>
-          <path d="M 98 126 L 180 106 L 186 86" stroke="#007c6e" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="72" cy="158" r="28" fill="#B8DCEF" stroke="#1565C0" stroke-width="2.5"/>
+          <circle cx="72" cy="158" r="17" fill="#DAEEF8" stroke="rgba(21,101,192,0.3)" stroke-width="1.2"/>
+          <circle cx="72" cy="158" r="5" fill="#1565C0"/>
+          <circle cx="210" cy="163" r="24" fill="#B8DCEF" stroke="#1565C0" stroke-width="2.5"/>
+          <circle cx="210" cy="163" r="14" fill="#DAEEF8" stroke="rgba(21,101,192,0.3)" stroke-width="1.2"/>
+          <circle cx="210" cy="163" r="4" fill="#1565C0"/>
+          <path d="M 68 140 L 100 126 L 206 126 L 224 148 L 216 161 L 68 159 Z" fill="#b8ddd9" stroke="#1565C0" stroke-width="1.2"/>
+          <rect x="88" y="88" width="10" height="40" rx="3" fill="#9cc9c4" stroke="#1565C0" stroke-width="1"/>
+          <rect x="68" y="78" width="54" height="16" rx="6" fill="#1565C0"/>
+          <rect x="72" y="81" width="46" height="7" rx="3" fill="#1976D2" opacity="0.6"/>
+          <path d="M 98 126 L 180 106 L 186 86" stroke="#1565C0" stroke-width="4" stroke-linecap="round"/>
           <line x1="168" y1="82" x2="204" y2="82" stroke="#ccc" stroke-width="5" stroke-linecap="round"/>
-          <rect x="180" y="124" width="36" height="10" rx="3" fill="#b8ddd9" stroke="rgba(0,124,110,0.3)" stroke-width="0.8"/>
+          <rect x="180" y="124" width="36" height="10" rx="3" fill="#b8ddd9" stroke="rgba(21,101,192,0.3)" stroke-width="0.8"/>
           <circle cx="186" cy="76" r="8" fill="#d4890a" opacity="0.9"/>
           <text x="186" y="79.5" text-anchor="middle" font-family="serif" font-size="7" font-weight="bold" fill="#fff">YM</text>
         </svg>
